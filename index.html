@@ -5,14 +5,54 @@
         ROCK | PAPERS | SCISSORS
     </title>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
 
 
 </head>
 <body>
-    <script src="javascript.js">
-        
-    </script>
+    <div class="text msg">
+        CHOOSE YOUR WEAPON TRAVELLER!
+    </div>
 
+    
+<div class="button-area">
+    <button class="button rock">
+        <div class="text ">ROCK</div>
+        <img src="images/rock.png" width=140px height=auto>
+    </button>
+    <button class="button paper">
+       <div class="text">
+            PAPER
+        </div>
+        
+        <img src="images/paper.png" width=140px height=auto>
+
+    </button>
+    <button class="button scissors">
+        <div class="text">
+            SCISSORS
+        </div>
+        <img src="images/scissors.png" width="140px" height=auto>
+        
+    </button>
+</div>
+
+<div class="text msg" id="win-msg">
+    
+</div>
+<div class="scoreboard">
+    <div class="msg" id="computer-score">
+        COMPUTER SCORE:
+    </div>
+    <div class="msg" id="player-score">
+        YOUR SCORE:
+    </div>
+</div>
+
+<script src="javascript.js">
+    
+    
+</script>
 
 </body>
 
